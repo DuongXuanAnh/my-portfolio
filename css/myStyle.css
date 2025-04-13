@@ -1,0 +1,10 @@
+.david_tm_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send_message{
+    width: 70%;
+    text-align: center;
+}
