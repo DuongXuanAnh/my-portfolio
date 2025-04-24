@@ -1,3 +1,11 @@
+body, html {
+    overflow-y: auto !important;
+}
+
+body {
+    font-family: 'Roboto' !important;
+}
+
 .david_tm_button{
     display: flex;
     justify-content: center;
@@ -8,3 +16,101 @@
     width: 70%;
     text-align: center;
 }
+
+.cavani_tm_about .biography .right {
+    width: 100%;
+}
+
+.service_list .list ul{
+    padding-left: 25px !important;
+
+}
+
+.service_list .list ul li {
+    list-style-type: disc;
+    padding: 0px !important;
+}
+.cavani_progress{
+    padding-left: 20px;
+}
+
+.languageContent{
+    margin-top: 50px !important;
+    padding-left: 20px;
+}
+
+
+.languageContent ul li{
+    margin-bottom: 20px;
+}
+
+
+.wrapper .right .first{
+    width: 120px;
+}
+
+.wrapper .right .second{
+    padding-left: 10px;
+}
+
+/* ----------------------------------------------- */
+
+@media (max-width: 1040px) {
+    .cavani_tm_mainpart{
+        /* overflow-y: auto; */
+        overflow: scroll !important;
+    }
+    .cavani_tm_section {
+        position: relative; /* Změní pozicování z 'absolute' na 'relative' */
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: visible;
+        opacity: 1 !important; /* Zajistí, že všechny sekce jsou viditelné */
+        visibility: visible !important; /* Zajistí, že všechny sekce jsou viditelné */
+        z-index: auto;
+        transition: none; /* Odebere efekty přechodu */
+        overflow: scroll !important;
+    }
+
+    .cavani_tm_section .section_inner {
+        padding: 20px 15px;
+    }
+
+    img, .cavani_tm_home, .cavani_tm_about, .cavani_tm_contact, .cavani_tm_portfolio {
+        width: 100%;
+        height: auto;
+    }
+
+    .cavani_tm_mobile_menu .menu_list ul li {
+        margin-bottom: 30px !important;
+        font-weight: bold;
+    }
+
+    .cavani_tm_home{
+        height: 100vh;
+    }
+
+    .man{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        display: none;
+    }
+
+    .man.open {
+        display: block;
+        z-index: 10;
+    }
+}
+
+
+
+
